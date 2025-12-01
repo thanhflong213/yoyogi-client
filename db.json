@@ -1,0 +1,2031 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "name": "Test User",
+      "email": "test@example.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=TestUser",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "preferences": {
+        "language": "en",
+        "theme": "light"
+      }
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam-1",
+      "title": "Mathematics Advanced Level",
+      "description": "Comprehensive mathematics exam covering algebra, geometry, and calculus",
+      "category": "mathematics",
+      "duration": 60,
+      "totalPoints": 100,
+      "passingScore": 70,
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8"
+      ],
+      "createdAt": "2024-01-15T00:00:00.000Z",
+      "updatedAt": "2024-01-15T00:00:00.000Z",
+      "difficulty": "hard",
+      "tags": [
+        "math",
+        "calculus",
+        "algebra"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800"
+    },
+    {
+      "id": "exam-2",
+      "title": "English Proficiency Test",
+      "description": "Test your English language skills - reading, writing, listening comprehension",
+      "category": "english",
+      "duration": 45,
+      "totalPoints": 80,
+      "passingScore": 60,
+      "questionIds": [
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13"
+      ],
+      "createdAt": "2024-01-20T00:00:00.000Z",
+      "updatedAt": "2024-01-20T00:00:00.000Z",
+      "difficulty": "medium",
+      "tags": [
+        "english",
+        "reading",
+        "comprehension"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800"
+    },
+    {
+      "id": "exam-3",
+      "title": "Science Fundamentals",
+      "description": "Basic science knowledge covering physics, chemistry, and biology",
+      "category": "science",
+      "duration": 30,
+      "totalPoints": 60,
+      "passingScore": 40,
+      "questionIds": [
+        "q14",
+        "q15",
+        "q16",
+        "q17"
+      ],
+      "createdAt": "2024-01-25T00:00:00.000Z",
+      "updatedAt": "2024-01-25T00:00:00.000Z",
+      "difficulty": "easy",
+      "tags": [
+        "science",
+        "physics",
+        "chemistry"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800"
+    },
+    {
+      "id": "exam-4",
+      "title": "Japanese History Comprehensive Test",
+      "description": "Comprehensive mock exam covering Japanese history from the Edo period to modern times",
+      "category": "history",
+      "duration": 50,
+      "totalPoints": 100,
+      "passingScore": 65,
+      "questionIds": [
+        "q18",
+        "q19",
+        "q20"
+      ],
+      "createdAt": "2024-02-01T00:00:00.000Z",
+      "updatedAt": "2024-02-01T00:00:00.000Z",
+      "difficulty": "medium",
+      "tags": [
+        "history",
+        "japan",
+        "modern"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1528696892704-5e1122852276?w=800"
+    },
+    {
+      "id": "exam-5",
+      "title": "Physics Fundamentals",
+      "description": "Basic physics problems focusing on mechanics, electromagnetism, and waves",
+      "category": "science",
+      "duration": 60,
+      "totalPoints": 100,
+      "passingScore": 70,
+      "questionIds": [
+        "q21",
+        "q22",
+        "q23"
+      ],
+      "createdAt": "2024-02-05T00:00:00.000Z",
+      "updatedAt": "2024-02-05T00:00:00.000Z",
+      "difficulty": "hard",
+      "tags": [
+        "physics",
+        "mechanics",
+        "electricity"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800"
+    },
+    {
+      "id": "exam-6",
+      "title": "Chemistry Comprehensive Practice",
+      "description": "Comprehensive problems in organic, inorganic, and theoretical chemistry",
+      "category": "science",
+      "duration": 55,
+      "totalPoints": 100,
+      "passingScore": 65,
+      "questionIds": [
+        "q24",
+        "q25"
+      ],
+      "createdAt": "2024-02-10T00:00:00.000Z",
+      "updatedAt": "2024-02-10T00:00:00.000Z",
+      "difficulty": "medium",
+      "tags": [
+        "chemistry",
+        "organic",
+        "inorganic"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800"
+    },
+    {
+      "id": "exam-7",
+      "title": "English Grammar Master",
+      "description": "Comprehensive university entrance level English grammar problems",
+      "category": "english",
+      "duration": 40,
+      "totalPoints": 80,
+      "passingScore": 60,
+      "questionIds": [
+        "q26",
+        "q27",
+        "q28"
+      ],
+      "createdAt": "2024-02-15T00:00:00.000Z",
+      "updatedAt": "2024-02-15T00:00:00.000Z",
+      "difficulty": "medium",
+      "tags": [
+        "grammar",
+        "university",
+        "entrance"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1516414447565-b14be0adf13e?w=800"
+    },
+    {
+      "id": "exam-8",
+      "title": "Mathematics I & A Comprehensive",
+      "description": "Comprehensive coverage of important topics in Mathematics I and A",
+      "category": "mathematics",
+      "duration": 70,
+      "totalPoints": 100,
+      "passingScore": 60,
+      "questionIds": [
+        "q29",
+        "q30",
+        "q31"
+      ],
+      "createdAt": "2024-02-20T00:00:00.000Z",
+      "updatedAt": "2024-02-20T00:00:00.000Z",
+      "difficulty": "easy",
+      "tags": [
+        "math1",
+        "mathA",
+        "basic"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800"
+    },
+    {
+      "id": "exam-9",
+      "title": "World History - Modern Era",
+      "description": "World history from the Industrial Revolution to modern times",
+      "category": "history",
+      "duration": 50,
+      "totalPoints": 100,
+      "passingScore": 65,
+      "questionIds": [
+        "q32",
+        "q33",
+        "q34"
+      ],
+      "createdAt": "2024-02-25T00:00:00.000Z",
+      "updatedAt": "2024-02-25T00:00:00.000Z",
+      "difficulty": "medium",
+      "tags": [
+        "world",
+        "modern",
+        "revolution"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=800"
+    },
+    {
+      "id": "exam-10",
+      "title": "Classical Literature Reading",
+      "description": "Develop reading comprehension skills for classical literature works",
+      "category": "language",
+      "duration": 45,
+      "totalPoints": 80,
+      "passingScore": 55,
+      "questionIds": [
+        "q35",
+        "q36"
+      ],
+      "createdAt": "2024-03-01T00:00:00.000Z",
+      "updatedAt": "2024-03-01T00:00:00.000Z",
+      "difficulty": "hard",
+      "tags": [
+        "classical",
+        "literature",
+        "reading"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800"
+    },
+    {
+      "id": "exam-11",
+      "title": "Biology Fundamentals",
+      "description": "Basic knowledge of cells, genetics, and ecosystems",
+      "category": "science",
+      "duration": 40,
+      "totalPoints": 70,
+      "passingScore": 50,
+      "questionIds": [
+        "q37",
+        "q38"
+      ],
+      "createdAt": "2024-03-05T00:00:00.000Z",
+      "updatedAt": "2024-03-05T00:00:00.000Z",
+      "difficulty": "easy",
+      "tags": [
+        "biology",
+        "cells",
+        "genetics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1530213786676-41ad9f7736f6?w=800"
+    },
+    {
+      "id": "exam-12",
+      "title": "Geography Comprehensive",
+      "description": "Comprehensive geography problems focusing on systematic geography and regional geography",
+      "category": "geography",
+      "duration": 50,
+      "totalPoints": 100,
+      "passingScore": 60,
+      "questionIds": [
+        "q39",
+        "q40"
+      ],
+      "createdAt": "2024-03-10T00:00:00.000Z",
+      "updatedAt": "2024-03-10T00:00:00.000Z",
+      "difficulty": "medium",
+      "tags": [
+        "geography",
+        "topography",
+        "climate"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800"
+    },
+    {
+      "id": "exam-13",
+      "title": "Advanced Reading Comprehension",
+      "description": "Test your reading comprehension skills with complex passages and detailed questions",
+      "category": "english",
+      "duration": 45,
+      "totalPoints": 100,
+      "passingScore": 70,
+      "questionIds": [
+        "q41",
+        "q42"
+      ],
+      "createdAt": "2024-03-15T00:00:00.000Z",
+      "updatedAt": "2024-03-15T00:00:00.000Z",
+      "difficulty": "hard",
+      "tags": [
+        "reading",
+        "comprehension",
+        "analysis"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800"
+    },
+    {
+      "id": "exam-14",
+      "title": "Logic and Ordering Challenge",
+      "description": "Practice logical thinking and sequencing skills",
+      "category": "general",
+      "duration": 30,
+      "totalPoints": 80,
+      "passingScore": 60,
+      "questionIds": [
+        "q43",
+        "q44",
+        "q45"
+      ],
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "updatedAt": "2024-03-20T00:00:00.000Z",
+      "difficulty": "medium",
+      "tags": [
+        "logic",
+        "ordering",
+        "critical thinking"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800"
+    },
+    {
+      "id": "exam-15",
+      "title": "Vocabulary Matching Test",
+      "description": "Match words with their correct definitions and synonyms",
+      "category": "english",
+      "duration": 25,
+      "totalPoints": 60,
+      "passingScore": 45,
+      "questionIds": [
+        "q46",
+        "q47",
+        "q48"
+      ],
+      "createdAt": "2024-03-25T00:00:00.000Z",
+      "updatedAt": "2024-03-25T00:00:00.000Z",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "matching",
+        "definitions"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=800"
+    },
+    {
+      "id": "exam-16",
+      "title": "Short Answer and Essay Practice",
+      "description": "Test your ability to express ideas clearly and concisely through written responses",
+      "category": "english",
+      "duration": 40,
+      "totalPoints": 100,
+      "passingScore": 70,
+      "questionIds": [
+        "q49",
+        "q50",
+        "q51",
+        "q52"
+      ],
+      "createdAt": "2024-03-30T00:00:00.000Z",
+      "updatedAt": "2024-03-30T00:00:00.000Z",
+      "difficulty": "medium",
+      "tags": [
+        "writing",
+        "short-answer",
+        "essay",
+        "composition"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800"
+    },
+    {
+      "id": "exam-17",
+      "title": "Interactive Drag and Drop Challenge",
+      "description": "Test your knowledge through interactive drag-and-drop exercises",
+      "category": "general",
+      "duration": 30,
+      "totalPoints": 75,
+      "passingScore": 55,
+      "questionIds": [
+        "q53",
+        "q54",
+        "q55"
+      ],
+      "createdAt": "2024-04-01T00:00:00.000Z",
+      "updatedAt": "2024-04-01T00:00:00.000Z",
+      "difficulty": "medium",
+      "tags": [
+        "interactive",
+        "drag-drop",
+        "visual"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800"
+    },
+    {
+      "id": "exam-18",
+      "title": "Comprehensive Mixed Format Test",
+      "description": "A challenging exam combining short answers, essays, and drag-drop questions",
+      "category": "general",
+      "duration": 50,
+      "totalPoints": 120,
+      "passingScore": 80,
+      "questionIds": [
+        "q56",
+        "q57",
+        "q58",
+        "q59"
+      ],
+      "createdAt": "2024-04-05T00:00:00.000Z",
+      "updatedAt": "2024-04-05T00:00:00.000Z",
+      "difficulty": "hard",
+      "tags": [
+        "comprehensive",
+        "mixed-format",
+        "advanced"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800"
+    },
+    {
+      "id": "exam-19",
+      "title": "Ultimate Exam - All Question Types",
+      "description": "The most comprehensive exam featuring ALL 13 question types in one test. Perfect for testing the complete platform functionality.",
+      "category": "general",
+      "duration": 90,
+      "totalPoints": 200,
+      "passingScore": 140,
+      "questionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q13",
+        "q9",
+        "q49",
+        "q52",
+        "q53",
+        "q60",
+        "q61"
+      ],
+      "createdAt": "2024-04-10T00:00:00.000Z",
+      "updatedAt": "2024-04-10T00:00:00.000Z",
+      "difficulty": "hard",
+      "tags": [
+        "comprehensive",
+        "all-types",
+        "ultimate",
+        "full-coverage"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?w=800"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "question": "What is the derivative of x²?",
+      "category": "mathematics",
+      "difficulty": "medium",
+      "points": 10,
+      "explanation": "Using the power rule: d/dx(x²) = 2x¹ = 2x",
+      "options": [
+        "x",
+        "2x",
+        "x²",
+        "2x²"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-1"
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which of the following are prime numbers?",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Prime numbers are natural numbers greater than 1 that have no positive divisors other than 1 and themselves.",
+      "options": [
+        "2",
+        "4",
+        "7",
+        "9",
+        "11"
+      ],
+      "correctAnswers": [
+        0,
+        2,
+        4
+      ],
+      "examId": "exam-1"
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The sum of angles in a triangle is always 180 degrees.",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "This is a fundamental property of Euclidean geometry.",
+      "correctAnswer": true,
+      "examId": "exam-1"
+    },
+    {
+      "id": "q4",
+      "type": "fill-in-blank",
+      "question": "The quadratic formula is x = (-b ± √(b² - 4ac)) / ___",
+      "category": "mathematics",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "The denominator of the quadratic formula is 2a.",
+      "correctAnswers": [
+        "2a",
+        "2*a",
+        "two a"
+      ],
+      "examId": "exam-1"
+    },
+    {
+      "id": "q5",
+      "type": "matching",
+      "question": "Match the mathematical operation with its symbol",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 15,
+      "explanation": "Basic mathematical symbols",
+      "leftItems": [
+        "Addition",
+        "Subtraction",
+        "Multiplication",
+        "Division"
+      ],
+      "rightItems": [
+        "÷",
+        "+",
+        "×",
+        "-"
+      ],
+      "correctMatches": {
+        "0": 1,
+        "1": 3,
+        "2": 2,
+        "3": 0
+      },
+      "examId": "exam-1"
+    },
+    {
+      "id": "q6",
+      "type": "ordering",
+      "question": "Arrange these numbers in ascending order",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Ascending means from smallest to largest.",
+      "items": [
+        "42",
+        "7",
+        "15",
+        "28"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "examId": "exam-1"
+    },
+    {
+      "id": "q7",
+      "type": "image-based",
+      "question": "What geometric shape is shown in the image?",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "A hexagon has 6 sides.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Regular_polygon_6_annotated.svg/220px-Regular_polygon_6_annotated.svg.png",
+      "options": [
+        "Pentagon",
+        "Hexagon",
+        "Octagon",
+        "Heptagon"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-1"
+    },
+    {
+      "id": "q8",
+      "type": "single-choice",
+      "question": "What is the value of π (pi) approximately?",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Pi is approximately 3.14159...",
+      "options": [
+        "2.71",
+        "3.14",
+        "1.62",
+        "4.20"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-1"
+    },
+    {
+      "id": "q9",
+      "type": "reading-comprehension",
+      "question": "Reading Comprehension",
+      "category": "english",
+      "difficulty": "medium",
+      "points": 20,
+      "explanation": "Comprehension of a passage",
+      "passage": "The Industrial Revolution was a period of major industrialization and innovation during the late 1700s and early 1800s. It began in Great Britain and quickly spread throughout the world. This time period saw the mechanization of agriculture and textile manufacturing and a revolution in power, including steam ships and railroads. The Industrial Revolution transformed largely rural, agrarian societies into industrialized, urban ones.",
+      "subQuestions": [
+        {
+          "id": "q9-1",
+          "type": "single-choice",
+          "question": "When did the Industrial Revolution begin?",
+          "category": "english",
+          "difficulty": "medium",
+          "points": 10,
+          "explanation": "The passage states it was during the late 1700s.",
+          "options": [
+            "Late 1600s",
+            "Late 1700s",
+            "Early 1800s",
+            "Mid 1800s"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9-2",
+          "type": "single-choice",
+          "question": "Where did the Industrial Revolution begin?",
+          "category": "english",
+          "difficulty": "easy",
+          "points": 10,
+          "explanation": "The passage explicitly states it began in Great Britain.",
+          "options": [
+            "United States",
+            "France",
+            "Great Britain",
+            "Germany"
+          ],
+          "correctAnswer": 2
+        }
+      ],
+      "examId": "exam-2"
+    },
+    {
+      "id": "q10",
+      "type": "single-choice",
+      "question": "Choose the correct spelling:",
+      "category": "english",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "The correct spelling is 'necessary'.",
+      "options": [
+        "neccessary",
+        "necessary",
+        "necesary",
+        "neccesary"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-2"
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "Which of the following are nouns?",
+      "category": "english",
+      "difficulty": "easy",
+      "points": 15,
+      "explanation": "Nouns are words that represent people, places, things, or ideas.",
+      "options": [
+        "quickly",
+        "table",
+        "happiness",
+        "run",
+        "freedom"
+      ],
+      "correctAnswers": [
+        1,
+        2,
+        4
+      ],
+      "examId": "exam-2"
+    },
+    {
+      "id": "q12",
+      "type": "fill-in-blank",
+      "question": "She ___ to the store yesterday.",
+      "category": "english",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "The past tense of 'go' is 'went'.",
+      "correctAnswers": [
+        "went"
+      ],
+      "examId": "exam-2"
+    },
+    {
+      "id": "q13",
+      "type": "audio-based",
+      "question": "What word do you hear?",
+      "category": "english",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "Listen carefully to the pronunciation.",
+      "audioUrl": "https://ssl.gstatic.com/dictionary/static/sounds/20200429/hello--_us_1.mp3",
+      "options": [
+        "Hello",
+        "Yellow",
+        "Jello",
+        "Below"
+      ],
+      "correctAnswer": 0,
+      "examId": "exam-2"
+    },
+    {
+      "id": "q14",
+      "type": "single-choice",
+      "question": "What is the chemical symbol for water?",
+      "category": "science",
+      "difficulty": "easy",
+      "points": 15,
+      "explanation": "Water is composed of two hydrogen atoms and one oxygen atom.",
+      "options": [
+        "H2O",
+        "CO2",
+        "O2",
+        "NaCl"
+      ],
+      "correctAnswer": 0,
+      "examId": "exam-3"
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "question": "The speed of light is approximately 300,000 km/s.",
+      "category": "science",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "The speed of light in vacuum is approximately 299,792 km/s, commonly rounded to 300,000 km/s.",
+      "correctAnswer": true,
+      "examId": "exam-3"
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "question": "Which of the following are renewable energy sources?",
+      "category": "science",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "Renewable energy sources can be replenished naturally.",
+      "options": [
+        "Solar",
+        "Coal",
+        "Wind",
+        "Natural Gas",
+        "Hydroelectric"
+      ],
+      "correctAnswers": [
+        0,
+        2,
+        4
+      ],
+      "examId": "exam-3"
+    },
+    {
+      "id": "q17",
+      "type": "single-choice",
+      "question": "What is the smallest unit of life?",
+      "category": "science",
+      "difficulty": "easy",
+      "points": 15,
+      "explanation": "The cell is the basic structural and functional unit of all living organisms.",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Cell",
+        "Tissue"
+      ],
+      "correctAnswer": 2,
+      "examId": "exam-3"
+    },
+    {
+      "id": "q18",
+      "type": "single-choice",
+      "question": "Who established the Edo Shogunate?",
+      "category": "history",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Tokugawa Ieyasu established the Edo Shogunate in 1603.",
+      "options": [
+        "Oda Nobunaga",
+        "Toyotomi Hideyoshi",
+        "Tokugawa Ieyasu",
+        "Takeda Shingen"
+      ],
+      "correctAnswer": 2,
+      "examId": "exam-4"
+    },
+    {
+      "id": "q19",
+      "type": "single-choice",
+      "question": "In what year did the Meiji Restoration occur?",
+      "category": "history",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "The Meiji Restoration began in 1868.",
+      "options": [
+        "1853",
+        "1868",
+        "1877",
+        "1889"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-4"
+    },
+    {
+      "id": "q20",
+      "type": "multiple-choice",
+      "question": "Which treaties were related to Japan's opening to foreign trade at the end of the shogunate?",
+      "category": "history",
+      "difficulty": "hard",
+      "points": 20,
+      "explanation": "The Treaty of Amity and Commerce between the United States and Japan, and the Anglo-Japanese Treaty of Amity and Commerce were related to the opening.",
+      "options": [
+        "Treaty of Amity and Commerce (US-Japan)",
+        "Treaty of Portsmouth",
+        "Anglo-Japanese Treaty of Amity and Commerce",
+        "San Francisco Peace Treaty"
+      ],
+      "correctAnswers": [
+        0,
+        2
+      ],
+      "examId": "exam-4"
+    },
+    {
+      "id": "q21",
+      "type": "single-choice",
+      "question": "What is the net force acting on an object in uniform linear motion?",
+      "category": "science",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "According to Newton's First Law, an object in uniform linear motion has zero net force.",
+      "options": [
+        "0N",
+        "Positive value",
+        "Negative value",
+        "Unknown"
+      ],
+      "correctAnswer": 0,
+      "examId": "exam-5"
+    },
+    {
+      "id": "q22",
+      "type": "single-choice",
+      "question": "What is the acceleration when a 10N force is applied to an object with mass 2kg?",
+      "category": "science",
+      "difficulty": "medium",
+      "points": 20,
+      "explanation": "Using F=ma, a=F/m=10/2=5m/s²",
+      "options": [
+        "2 m/s²",
+        "5 m/s²",
+        "10 m/s²",
+        "20 m/s²"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-5"
+    },
+    {
+      "id": "q23",
+      "type": "true-false",
+      "question": "The speed of light in vacuum is approximately 300,000 km/s.",
+      "category": "science",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "The speed of light in vacuum is approximately 299,792 km/s, commonly rounded to 300,000 km/s.",
+      "correctAnswer": true,
+      "examId": "exam-5"
+    },
+    {
+      "id": "q24",
+      "type": "single-choice",
+      "question": "What is the chemical formula for water?",
+      "category": "science",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Water consists of 2 hydrogen atoms and 1 oxygen atom.",
+      "options": [
+        "H2O",
+        "H2O2",
+        "CO2",
+        "HO"
+      ],
+      "correctAnswer": 0,
+      "examId": "exam-6"
+    },
+    {
+      "id": "q25",
+      "type": "multiple-choice",
+      "question": "Which of the following are acids?",
+      "category": "science",
+      "difficulty": "medium",
+      "points": 20,
+      "explanation": "Hydrochloric acid (HCl) and sulfuric acid (H2SO4) are acids.",
+      "options": [
+        "HCl",
+        "NaOH",
+        "H2SO4",
+        "NaCl"
+      ],
+      "correctAnswers": [
+        0,
+        2
+      ],
+      "examId": "exam-6"
+    },
+    {
+      "id": "q26",
+      "type": "single-choice",
+      "question": "She ___ to school every day.",
+      "category": "english",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "For third person singular present tense, we add 's' to 'go' making it 'goes'.",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-7"
+    },
+    {
+      "id": "q27",
+      "type": "single-choice",
+      "question": "I have ___ this book before.",
+      "category": "english",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "For present perfect tense, we use the past participle 'read'.",
+      "options": [
+        "read (present)",
+        "read (past participle)",
+        "reading",
+        "readed"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-7"
+    },
+    {
+      "id": "q28",
+      "type": "multiple-choice",
+      "question": "Which of the following are prepositions?",
+      "category": "english",
+      "difficulty": "easy",
+      "points": 15,
+      "explanation": "'in', 'on', and 'at' are prepositions.",
+      "options": [
+        "in",
+        "go",
+        "on",
+        "at",
+        "run"
+      ],
+      "correctAnswers": [
+        0,
+        2,
+        3
+      ],
+      "examId": "exam-7"
+    },
+    {
+      "id": "q29",
+      "type": "single-choice",
+      "question": "When 2x + 5 = 13, what is the value of x?",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "2x = 13 - 5 = 8, therefore x = 4",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-8"
+    },
+    {
+      "id": "q30",
+      "type": "single-choice",
+      "question": "What is 3² × 3³ equal to?",
+      "category": "mathematics",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "Using exponent rules: 3² × 3³ = 3⁵ = 243",
+      "options": [
+        "27",
+        "81",
+        "243",
+        "729"
+      ],
+      "correctAnswer": 2,
+      "examId": "exam-8"
+    },
+    {
+      "id": "q31",
+      "type": "true-false",
+      "question": "The square root of 4 equals 2.",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Since 2 × 2 = 4, therefore √4 = 2.",
+      "correctAnswer": true,
+      "examId": "exam-8"
+    },
+    {
+      "id": "q32",
+      "type": "single-choice",
+      "question": "In what year did the French Revolution occur?",
+      "category": "history",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "The French Revolution began in 1789.",
+      "options": [
+        "1776",
+        "1789",
+        "1804",
+        "1815"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-9"
+    },
+    {
+      "id": "q33",
+      "type": "single-choice",
+      "question": "Which country did the Industrial Revolution first occur in?",
+      "category": "history",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "The Industrial Revolution began in Britain in the 18th century.",
+      "options": [
+        "France",
+        "Germany",
+        "Britain",
+        "United States"
+      ],
+      "correctAnswer": 2,
+      "examId": "exam-9"
+    },
+    {
+      "id": "q34",
+      "type": "multiple-choice",
+      "question": "Which countries were part of the Central Powers in World War I?",
+      "category": "history",
+      "difficulty": "hard",
+      "points": 20,
+      "explanation": "Germany, Austria-Hungary, and the Ottoman Empire were the Central Powers.",
+      "options": [
+        "Germany",
+        "France",
+        "Austria-Hungary",
+        "Britain",
+        "Ottoman Empire"
+      ],
+      "correctAnswers": [
+        0,
+        2,
+        4
+      ],
+      "examId": "exam-9"
+    },
+    {
+      "id": "q35",
+      "type": "single-choice",
+      "question": "Who is the author of 'The Pillow Book' (Makura no Sōshi)?",
+      "category": "language",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "The Pillow Book is an essay collection by Sei Shōnagon.",
+      "options": [
+        "Murasaki Shikibu",
+        "Sei Shōnagon",
+        "Izumi Shikibu",
+        "Akazome Emon"
+      ],
+      "correctAnswer": 1,
+      "examId": "exam-10"
+    },
+    {
+      "id": "q36",
+      "type": "single-choice",
+      "question": "Who is the protagonist of 'The Tale of Genji' (Genji Monogatari)?",
+      "category": "language",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "The protagonist of The Tale of Genji is Hikaru Genji (Shining Genji).",
+      "options": [
+        "Hikaru Genji",
+        "Ariwara no Narihira",
+        "Fujiwara no Michinaga",
+        "Sugawara no Michizane"
+      ],
+      "correctAnswer": 0,
+      "examId": "exam-10"
+    },
+    {
+      "id": "q37",
+      "type": "single-choice",
+      "question": "What is the correct base pairing in DNA?",
+      "category": "science",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "In DNA, adenine pairs with thymine, and guanine pairs with cytosine.",
+      "options": [
+        "A-T, G-C",
+        "A-C, G-T",
+        "A-G, T-C",
+        "A-U, G-C"
+      ],
+      "correctAnswer": 0,
+      "examId": "exam-11"
+    },
+    {
+      "id": "q38",
+      "type": "true-false",
+      "question": "Photosynthesis occurs in chloroplasts.",
+      "category": "science",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Photosynthesis takes place in the chloroplasts of plant cells.",
+      "correctAnswer": true,
+      "examId": "exam-11"
+    },
+    {
+      "id": "q39",
+      "type": "single-choice",
+      "question": "What is Japan's highest mountain peak?",
+      "category": "geography",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Mount Fuji is Japan's highest peak at 3,776 meters.",
+      "options": [
+        "Mount Fuji",
+        "Mount Kita",
+        "Mount Hotaka",
+        "Mount Yari"
+      ],
+      "correctAnswer": 0,
+      "examId": "exam-12"
+    },
+    {
+      "id": "q40",
+      "type": "single-choice",
+      "question": "What is the latitude of the equator?",
+      "category": "geography",
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "The equator is at 0 degrees latitude.",
+      "options": [
+        "0 degrees",
+        "90 degrees",
+        "180 degrees",
+        "360 degrees"
+      ],
+      "correctAnswer": 0,
+      "examId": "exam-12"
+    },
+    {
+      "id": "q41",
+      "type": "reading-comprehension",
+      "question": "Reading Comprehension: Climate Change",
+      "category": "english",
+      "difficulty": "hard",
+      "points": 50,
+      "explanation": "Understanding complex scientific texts requires careful reading and analysis",
+      "passage": "Climate change represents one of the most significant challenges facing humanity in the 21st century. The overwhelming scientific consensus indicates that human activities, particularly the burning of fossil fuels and deforestation, have led to unprecedented increases in atmospheric greenhouse gas concentrations. These changes have resulted in rising global temperatures, melting ice caps, rising sea levels, and increasingly frequent extreme weather events. The Intergovernmental Panel on Climate Change (IPCC) reports that without immediate and substantial reductions in greenhouse gas emissions, the world faces catastrophic consequences including widespread ecosystem collapse, mass species extinction, and severe impacts on human societies, particularly in vulnerable coastal and agricultural regions.",
+      "subQuestions": [
+        {
+          "id": "q41-1",
+          "type": "single-choice",
+          "question": "According to the passage, what is the primary cause of climate change?",
+          "category": "english",
+          "difficulty": "medium",
+          "points": 15,
+          "explanation": "The passage clearly states human activities as the primary cause",
+          "options": [
+            "Natural weather cycles",
+            "Human activities such as burning fossil fuels",
+            "Solar radiation changes",
+            "Volcanic activity"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q41-2",
+          "type": "multiple-choice",
+          "question": "Which consequences of climate change are mentioned in the passage?",
+          "category": "english",
+          "difficulty": "medium",
+          "points": 20,
+          "explanation": "Multiple consequences are listed in the passage",
+          "options": [
+            "Rising sea levels",
+            "Ecosystem collapse",
+            "Increased rainfall everywhere",
+            "Mass species extinction",
+            "Lower temperatures"
+          ],
+          "correctAnswers": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "q41-3",
+          "type": "true-false",
+          "question": "The IPCC warns that without emission reductions, severe impacts will occur.",
+          "category": "english",
+          "difficulty": "easy",
+          "points": 15,
+          "explanation": "This is directly stated in the final sentence",
+          "correctAnswer": true
+        }
+      ],
+      "examId": "exam-13"
+    },
+    {
+      "id": "q42",
+      "type": "reading-comprehension",
+      "question": "Reading Comprehension: Artificial Intelligence",
+      "category": "english",
+      "difficulty": "hard",
+      "points": 50,
+      "explanation": "Understanding AI technology and its implications",
+      "passage": "Artificial Intelligence (AI) has rapidly evolved from a theoretical concept to a transformative technology that permeates nearly every aspect of modern life. Machine learning algorithms now power everything from smartphone assistants to autonomous vehicles, medical diagnostics to financial trading systems. While AI offers tremendous potential benefits—including increased efficiency, improved decision-making, and solutions to complex problems—it also raises important ethical questions. Concerns about job displacement, algorithmic bias, privacy violations, and the concentration of power in the hands of tech companies have sparked intense debate among policymakers, technologists, and the public. As AI systems become more sophisticated and autonomous, society must grapple with fundamental questions about accountability, transparency, and the role of human judgment in an increasingly automated world.",
+      "subQuestions": [
+        {
+          "id": "q42-1",
+          "type": "single-choice",
+          "question": "What does the passage suggest about AI's current state?",
+          "category": "english",
+          "difficulty": "medium",
+          "points": 15,
+          "explanation": "The passage indicates AI has moved beyond theory to practical applications",
+          "options": [
+            "It remains mostly theoretical",
+            "It is used in nearly every aspect of modern life",
+            "It has failed to meet expectations",
+            "It is only used in smartphones"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q42-2",
+          "type": "multiple-choice",
+          "question": "Which ethical concerns about AI are mentioned?",
+          "category": "english",
+          "difficulty": "medium",
+          "points": 20,
+          "explanation": "Several ethical concerns are explicitly listed",
+          "options": [
+            "Job displacement",
+            "Algorithmic bias",
+            "Environmental impact",
+            "Privacy violations",
+            "Cost of implementation"
+          ],
+          "correctAnswers": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "q42-3",
+          "type": "single-choice",
+          "question": "According to the passage, AI is used in which of the following?",
+          "category": "english",
+          "difficulty": "easy",
+          "points": 15,
+          "explanation": "Medical diagnostics is specifically mentioned as an AI application",
+          "options": [
+            "Social media only",
+            "Medical diagnostics",
+            "Agriculture only",
+            "Education only"
+          ],
+          "correctAnswer": 1
+        }
+      ],
+      "examId": "exam-13"
+    },
+    {
+      "id": "q43",
+      "type": "ordering",
+      "question": "Arrange the steps of the scientific method in the correct order",
+      "category": "science",
+      "difficulty": "medium",
+      "points": 20,
+      "explanation": "The scientific method follows a specific logical sequence",
+      "items": [
+        "Analyze data and draw conclusions",
+        "Ask a question or identify a problem",
+        "Conduct the experiment",
+        "Form a hypothesis",
+        "Test the hypothesis through experimentation"
+      ],
+      "correctOrder": [
+        1,
+        3,
+        4,
+        2,
+        0
+      ],
+      "examId": "exam-14"
+    },
+    {
+      "id": "q44",
+      "type": "ordering",
+      "question": "Arrange these historical events in chronological order",
+      "category": "history",
+      "difficulty": "medium",
+      "points": 25,
+      "explanation": "Understanding the sequence of major world events",
+      "items": [
+        "World War II",
+        "Fall of the Berlin Wall",
+        "First Moon Landing",
+        "Declaration of Independence (USA)",
+        "Invention of the Internet"
+      ],
+      "correctOrder": [
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      "examId": "exam-14"
+    },
+    {
+      "id": "q45",
+      "type": "ordering",
+      "question": "Arrange these numbers from smallest to largest: 0.75, 3/4, 80%, 0.8",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 15,
+      "explanation": "Converting different number formats to compare",
+      "items": [
+        "0.8",
+        "3/4",
+        "0.75",
+        "80%"
+      ],
+      "correctOrder": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "examId": "exam-14"
+    },
+    {
+      "id": "q46",
+      "type": "matching",
+      "question": "Match each literary term with its correct definition",
+      "category": "english",
+      "difficulty": "medium",
+      "points": 20,
+      "explanation": "Understanding basic literary terminology",
+      "leftItems": [
+        "Metaphor",
+        "Alliteration",
+        "Personification",
+        "Simile"
+      ],
+      "rightItems": [
+        "Giving human qualities to non-human things",
+        "Comparing two things using 'like' or 'as'",
+        "A direct comparison saying one thing is another",
+        "Repetition of initial consonant sounds"
+      ],
+      "correctMatches": {
+        "0": 2,
+        "1": 3,
+        "2": 0,
+        "3": 1
+      },
+      "examId": "exam-15"
+    },
+    {
+      "id": "q47",
+      "type": "matching",
+      "question": "Match each country with its capital city",
+      "category": "geography",
+      "difficulty": "easy",
+      "points": 20,
+      "explanation": "Basic geography knowledge of world capitals",
+      "leftItems": [
+        "Japan",
+        "France",
+        "Australia",
+        "Brazil"
+      ],
+      "rightItems": [
+        "Brasília",
+        "Tokyo",
+        "Canberra",
+        "Paris"
+      ],
+      "correctMatches": {
+        "0": 1,
+        "1": 3,
+        "2": 2,
+        "3": 0
+      },
+      "examId": "exam-15"
+    },
+    {
+      "id": "q48",
+      "type": "matching",
+      "question": "Match each element with its chemical symbol",
+      "category": "science",
+      "difficulty": "easy",
+      "points": 20,
+      "explanation": "Basic chemistry symbols",
+      "leftItems": [
+        "Gold",
+        "Iron",
+        "Sodium",
+        "Oxygen"
+      ],
+      "rightItems": [
+        "O",
+        "Au",
+        "Na",
+        "Fe"
+      ],
+      "correctMatches": {
+        "0": 1,
+        "1": 3,
+        "2": 2,
+        "3": 0
+      },
+      "examId": "exam-15"
+    },
+    {
+      "id": "q49",
+      "type": "short-answer",
+      "question": "What is the capital of France?",
+      "category": "geography",
+      "difficulty": "easy",
+      "points": 15,
+      "explanation": "Paris is the capital and largest city of France.",
+      "correctAnswers": [
+        "Paris",
+        "paris"
+      ],
+      "maxLength": 50,
+      "examId": "exam-16"
+    },
+    {
+      "id": "q50",
+      "type": "short-answer",
+      "question": "Name the three states of matter.",
+      "category": "science",
+      "difficulty": "easy",
+      "points": 20,
+      "explanation": "The three common states of matter are solid, liquid, and gas.",
+      "correctAnswers": [
+        "solid, liquid, gas",
+        "solid liquid gas",
+        "gas, liquid, solid",
+        "liquid, solid, gas"
+      ],
+      "maxLength": 100,
+      "examId": "exam-16"
+    },
+    {
+      "id": "q51",
+      "type": "short-answer",
+      "question": "In what year was the Declaration of Independence signed?",
+      "category": "history",
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "The Declaration of Independence was signed in 1776.",
+      "correctAnswers": [
+        "1776"
+      ],
+      "maxLength": 50,
+      "examId": "exam-16"
+    },
+    {
+      "id": "q52",
+      "type": "essay",
+      "question": "Write a short essay (150-250 words) discussing the importance of renewable energy sources in combating climate change. Include at least three benefits and one challenge.",
+      "category": "science",
+      "difficulty": "hard",
+      "points": 50,
+      "explanation": "A good essay should discuss: reduced greenhouse gas emissions, sustainability, energy independence, and challenges like initial costs or infrastructure needs.",
+      "minWords": 150,
+      "maxWords": 250,
+      "rubric": [
+        {
+          "criterion": "Clarity and Organization",
+          "points": 15
+        },
+        {
+          "criterion": "Content and Arguments",
+          "points": 20
+        },
+        {
+          "criterion": "Grammar and Vocabulary",
+          "points": 10
+        },
+        {
+          "criterion": "Examples and Evidence",
+          "points": 5
+        }
+      ],
+      "examId": "exam-16"
+    },
+    {
+      "id": "q53",
+      "type": "drag-drop",
+      "question": "Drag the planets to arrange them in order from the Sun (closest to farthest)",
+      "category": "science",
+      "difficulty": "medium",
+      "points": 25,
+      "explanation": "The order of planets from the Sun is: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+      "items": [
+        "Neptune",
+        "Mars",
+        "Earth",
+        "Jupiter",
+        "Mercury",
+        "Venus",
+        "Saturn",
+        "Uranus"
+      ],
+      "correctOrder": [
+        4,
+        5,
+        2,
+        1,
+        3,
+        6,
+        7,
+        0
+      ],
+      "examId": "exam-17"
+    },
+    {
+      "id": "q54",
+      "type": "drag-drop",
+      "question": "Drag and drop the programming languages into the correct category based on their primary use",
+      "category": "general",
+      "difficulty": "medium",
+      "points": 25,
+      "explanation": "Understanding programming language categorization",
+      "dropZones": [
+        {
+          "id": "web-frontend",
+          "label": "Web Frontend",
+          "acceptedItems": [
+            "JavaScript",
+            "TypeScript",
+            "HTML/CSS"
+          ]
+        },
+        {
+          "id": "backend",
+          "label": "Backend/Server",
+          "acceptedItems": [
+            "Python",
+            "Java",
+            "Node.js"
+          ]
+        },
+        {
+          "id": "mobile",
+          "label": "Mobile Development",
+          "acceptedItems": [
+            "Swift",
+            "Kotlin",
+            "React Native"
+          ]
+        }
+      ],
+      "items": [
+        "JavaScript",
+        "Python",
+        "Swift",
+        "TypeScript",
+        "Java",
+        "Kotlin",
+        "HTML/CSS",
+        "Node.js",
+        "React Native"
+      ],
+      "examId": "exam-17"
+    },
+    {
+      "id": "q55",
+      "type": "drag-drop",
+      "question": "Drag the food items to their correct food groups",
+      "category": "science",
+      "difficulty": "easy",
+      "points": 25,
+      "explanation": "Understanding basic food groups and nutrition",
+      "dropZones": [
+        {
+          "id": "protein",
+          "label": "Protein",
+          "acceptedItems": [
+            "Chicken",
+            "Fish",
+            "Eggs",
+            "Beans"
+          ]
+        },
+        {
+          "id": "dairy",
+          "label": "Dairy",
+          "acceptedItems": [
+            "Milk",
+            "Cheese",
+            "Yogurt"
+          ]
+        },
+        {
+          "id": "fruits",
+          "label": "Fruits",
+          "acceptedItems": [
+            "Apple",
+            "Banana",
+            "Orange"
+          ]
+        },
+        {
+          "id": "vegetables",
+          "label": "Vegetables",
+          "acceptedItems": [
+            "Broccoli",
+            "Carrot",
+            "Spinach"
+          ]
+        }
+      ],
+      "items": [
+        "Chicken",
+        "Milk",
+        "Apple",
+        "Broccoli",
+        "Fish",
+        "Cheese",
+        "Banana",
+        "Carrot",
+        "Eggs",
+        "Yogurt",
+        "Orange",
+        "Spinach",
+        "Beans"
+      ],
+      "examId": "exam-17"
+    },
+    {
+      "id": "q56",
+      "type": "short-answer",
+      "question": "Define 'photosynthesis' in one sentence.",
+      "category": "science",
+      "difficulty": "medium",
+      "points": 20,
+      "explanation": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of sugar.",
+      "correctAnswers": [
+        "process by which plants use sunlight to produce food",
+        "process where plants convert light energy into chemical energy",
+        "plants using sunlight water and co2 to make oxygen and sugar"
+      ],
+      "maxLength": 150,
+      "examId": "exam-18"
+    },
+    {
+      "id": "q57",
+      "type": "essay",
+      "question": "Write an analytical essay (200-300 words) comparing and contrasting democracy and authoritarianism. Discuss at least two key differences and provide historical examples.",
+      "category": "history",
+      "difficulty": "hard",
+      "points": 60,
+      "explanation": "A comprehensive essay should discuss power distribution, citizen participation, individual freedoms, and include examples like USA (democracy) vs North Korea (authoritarianism).",
+      "minWords": 200,
+      "maxWords": 300,
+      "rubric": [
+        {
+          "criterion": "Thesis and Structure",
+          "points": 15
+        },
+        {
+          "criterion": "Comparison and Analysis",
+          "points": 25
+        },
+        {
+          "criterion": "Historical Examples",
+          "points": 10
+        },
+        {
+          "criterion": "Writing Quality",
+          "points": 10
+        }
+      ],
+      "examId": "exam-18"
+    },
+    {
+      "id": "q58",
+      "type": "drag-drop",
+      "question": "Drag the mathematical operations to match them with their correct results",
+      "category": "mathematics",
+      "difficulty": "medium",
+      "points": 25,
+      "explanation": "Basic arithmetic operations",
+      "items": [
+        "15 + 7",
+        "9 × 8",
+        "144 ÷ 12",
+        "23 - 8",
+        "6²"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchTargets": [
+        "22",
+        "72",
+        "12",
+        "15",
+        "36"
+      ],
+      "examId": "exam-18"
+    },
+    {
+      "id": "q59",
+      "type": "short-answer",
+      "question": "What is the formula for the area of a circle? (Use 'r' for radius)",
+      "category": "mathematics",
+      "difficulty": "easy",
+      "points": 15,
+      "explanation": "The area of a circle is π times the radius squared: A = πr²",
+      "correctAnswers": [
+        "πr²",
+        "pi*r^2",
+        "π*r²",
+        "A = πr²",
+        "pir2"
+      ],
+      "maxLength": 50,
+      "examId": "exam-18"
+    },
+    {
+      "id": "q60",
+      "type": "matrix",
+      "question": "Match each programming paradigm with its correct characteristics",
+      "category": "general",
+      "difficulty": "medium",
+      "points": 30,
+      "explanation": "Different programming paradigms have distinct characteristics: Object-Oriented focuses on encapsulation and classes, Functional on pure functions and immutability, Procedural on sequential steps.",
+      "questionText": "For each paradigm, select the characteristic that best describes it.",
+      "rows": [
+        "Object-Oriented Programming",
+        "Functional Programming",
+        "Procedural Programming"
+      ],
+      "columns": [
+        "Uses classes and objects",
+        "Emphasizes pure functions",
+        "Sequential step-by-step execution"
+      ],
+      "correctAnswers": {
+        "row-0": 0,
+        "row-1": 1,
+        "row-2": 2
+      },
+      "examId": "exam-19"
+    },
+    {
+      "id": "q61",
+      "type": "matrix",
+      "question": "Classify each vitamin by its solubility",
+      "category": "science",
+      "difficulty": "easy",
+      "points": 25,
+      "explanation": "Vitamins A, D, E, K are fat-soluble (stored in body fat), while B and C are water-soluble (excreted if in excess).",
+      "questionText": "Select whether each vitamin is water-soluble or fat-soluble.",
+      "rows": [
+        "Vitamin A",
+        "Vitamin B Complex",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin E"
+      ],
+      "columns": [
+        "Water-Soluble",
+        "Fat-Soluble"
+      ],
+      "correctAnswers": {
+        "row-0": 1,
+        "row-1": 0,
+        "row-2": 0,
+        "row-3": 1,
+        "row-4": 1
+      },
+      "examId": "exam-19"
+    }
+  ],
+  "results": [
+    {
+      "id": "result-1",
+      "userId": "user-1",
+      "examId": "exam-3",
+      "score": 52,
+      "totalPoints": 60,
+      "percentage": 86.67,
+      "answers": [
+        {
+          "questionId": "q14",
+          "answer": 0,
+          "timeSpent": 15,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q15",
+          "answer": true,
+          "timeSpent": 20,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q16",
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "timeSpent": 35,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q17",
+          "answer": 1,
+          "timeSpent": 10,
+          "isCorrect": false
+        }
+      ],
+      "timeSpent": 1200,
+      "completedAt": "2024-11-28T10:30:00.000Z",
+      "passed": true
+    },
+    {
+      "id": "result-1764612507416",
+      "userId": "user-1",
+      "examId": "exam-2",
+      "score": 0,
+      "totalPoints": 70,
+      "percentage": 0,
+      "answers": [
+        {
+          "questionId": "q11",
+          "answer": [
+            0
+          ],
+          "timeSpent": 4,
+          "isCorrect": false
+        }
+      ],
+      "timeSpent": 13,
+      "completedAt": "2025-12-01T18:08:27.391Z",
+      "passed": false
+    },
+    {
+      "id": "result-1764614003774",
+      "userId": "user-1",
+      "examId": "exam-5",
+      "score": 0,
+      "totalPoints": 45,
+      "percentage": 0,
+      "answers": [
+        {
+          "questionId": "q21",
+          "answer": 2,
+          "timeSpent": 3,
+          "isCorrect": false
+        }
+      ],
+      "timeSpent": 7,
+      "completedAt": "2025-12-01T18:33:23.751Z",
+      "passed": false
+    },
+    {
+      "id": "result-1764614588021",
+      "userId": "user-1",
+      "examId": "exam-11",
+      "score": 0,
+      "totalPoints": 25,
+      "percentage": 0,
+      "answers": [],
+      "timeSpent": 4,
+      "completedAt": "2025-12-01T18:43:07.997Z",
+      "passed": false
+    },
+    {
+      "id": "result-1764615519625",
+      "userId": "user-1",
+      "examId": "exam-2",
+      "score": 10,
+      "totalPoints": 70,
+      "percentage": 14.285714285714285,
+      "answers": [
+        {
+          "questionId": "q12",
+          "answer": "went",
+          "timeSpent": 12,
+          "isCorrect": true
+        }
+      ],
+      "timeSpent": 15,
+      "completedAt": "2025-12-01T18:58:39.601Z",
+      "passed": false
+    },
+    {
+      "id": "result-1764618380944",
+      "userId": "user-1",
+      "examId": "exam-1",
+      "score": 0,
+      "totalPoints": 90,
+      "percentage": 0,
+      "answers": [
+        {
+          "questionId": "q6",
+          "answer": [
+            "7",
+            "42",
+            "15",
+            "28"
+          ],
+          "timeSpent": 8,
+          "isCorrect": false
+        }
+      ],
+      "timeSpent": 14,
+      "completedAt": "2025-12-01T19:46:20.915Z",
+      "passed": false
+    },
+    {
+      "id": "result-1764618527369",
+      "userId": "user-1",
+      "examId": "exam-2",
+      "score": 10,
+      "totalPoints": 70,
+      "percentage": 14.285714285714285,
+      "answers": [
+        {
+          "questionId": "q10",
+          "answer": 3,
+          "timeSpent": 1,
+          "isCorrect": false
+        },
+        {
+          "questionId": "q11",
+          "answer": [
+            2
+          ],
+          "timeSpent": 1,
+          "isCorrect": false
+        },
+        {
+          "questionId": "q12",
+          "answer": "went",
+          "timeSpent": 3,
+          "isCorrect": true
+        },
+        {
+          "questionId": "q13",
+          "answer": 2,
+          "timeSpent": 7,
+          "isCorrect": false
+        },
+        {
+          "questionId": "q9",
+          "answer": {
+            "q9-1": 3,
+            "q9-2": 3
+          },
+          "timeSpent": 10,
+          "isCorrect": false
+        }
+      ],
+      "timeSpent": 26,
+      "completedAt": "2025-12-01T19:48:47.333Z",
+      "passed": false
+    }
+  ]
+}
